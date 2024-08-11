@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CropMonitoring>
+    <Field id="F001">
+        <Name>Field A</Name>
+        <Location>35.6895, 139.6917</Location>
+        <Size unit="hectares">10</Size>
+    </Field>
+    <Crop id="C001">
+        <Name>Wheat</Name>
+        <FieldRef>F001</FieldRef>
+        <PlantingDate>2023-03-01</PlantingDate>
+    </Crop>
+    <MonitoringEvent id="M001">
+        <CropRef>C001</CropRef>
+        <Date>2023-05-15</Date>
+        <Status>Healthy</Status>
+        <Observation>Pest levels low, no intervention needed</Observation>
+    </MonitoringEvent>
+</CropMonitoring>
